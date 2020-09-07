@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# course: https://youtu.be/GtovwKDemnI
+# course: https://youtu.be/GtovwKDemnI - done till 52
+# https://www.tutorialspoint.com/unix/unix-loop-control.htm
 
 # first line above specify the interpreture for this script
 
@@ -17,3 +18,4 @@
 echo "what's your name?"
 read person
 echo "Hello $person"
+

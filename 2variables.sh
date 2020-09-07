@@ -1,9 +1,24 @@
-# https://youtu.be/GtovwKDemnI - WIP - done till 30 mins
+# https://youtu.be/GtovwKDemnI
 
 # local, enviornment, shell variables
 # Local: local to shell
 EDITOR=vim 
-EDITOR=vim crontab -e
+echo $EDITOR
+
+EDITOR=vim crontab -e   #sets a variable and runs crontab command
+
+## special variables
+$0  # script name
+$1  # first variable
+$#  # all variaables
+$*  # all arguments are double quoted
+$?  # exit status of last command
+$$$ # process number of current shell
+echo "File name: $0"
+echo "First parameter:  $1"
+echo "quoted values: $*"
+echo "all varioables : $#"
+
 
 # enviornment
 export EDITOR=vim
