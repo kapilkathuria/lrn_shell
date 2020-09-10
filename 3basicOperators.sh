@@ -1,5 +1,7 @@
 # arthematic
 # *, +, -, /, %, =
+# see 'man test' for more expressions and tests
+
 $a+$b
 a= $b   #assign b to a
 [$a == $b]  # check if a and b are equal
@@ -33,4 +35,4 @@ a= $b   #assign b to a
 [-f $file]  # returns true if file
 [-e $file]  # returns true if file exists
 
-
+# see 'man test' for more expressions and tests
